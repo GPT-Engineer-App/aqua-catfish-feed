@@ -1,5 +1,5 @@
 import { Box, Container, Heading, Text, Image, Button, VStack, HStack, Icon } from "@chakra-ui/react";
-import { FaFish, FaPlus, FaShoppingCart } from "react-icons/fa";
+import { FaFish, FaPlus, FaShoppingCart, FaFacebook } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -23,6 +23,9 @@ const Index = () => {
             </Button>
             <Button leftIcon={<Icon as={FaPlus} />} colorScheme="gray" variant="outline">
               Learn More
+            </Button>
+            <Button leftIcon={<Icon as={FaFacebook} />} colorScheme="blue" variant="solid">
+              Follow on Facebook
             </Button>
           </HStack>
         </Box>
